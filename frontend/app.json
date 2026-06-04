@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "DisasterScope",
+    "slug": "disasterscope",
+    "android": {
+      "package": "com.thelegend35.disasterscope",
+      "versionCode": 1
+    },
+    "icon": "./assets/images/ds.png",
+    "extra": {
+      "BACKEND_URL": "https://disasterscope-backend-c9aj.onrender.com",
+      "eas": {
+        "projectId": "96082c34-5ac7-4707-bba6-71a4c0747c87"
+      }
+    },
+    "build": {
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+    "owner": "thelegend35"
+  }
+}
